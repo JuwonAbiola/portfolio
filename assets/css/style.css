@@ -1,0 +1,161 @@
+  body {
+      background: linear-gradient(316deg, #fd79a8, #00b894, #001847, #54a0ff, #dd00f3, #e84393);
+      background-size: 1800% 1800%;
+      color: #fff;
+      -webkit-animation: rainbow 18s ease infinite;
+      -z-animation: rainbow 18s ease infinite;
+      -o-animation: rainbow 18s ease infinite;
+      animation: rainbow 18s ease infinite;
+  }
+  
+  @-webkit-keyframes rainbow {
+      0% {
+          background-position: 0% 82%
+      }
+      50% {
+          background-position: 100% 19%
+      }
+      100% {
+          background-position: 0% 82%
+      }
+  }
+  
+  @-moz-keyframes rainbow {
+      0% {
+          background-position: 0% 82%
+      }
+      50% {
+          background-position: 100% 19%
+      }
+      100% {
+          background-position: 0% 82%
+      }
+  }
+  
+  @-o-keyframes rainbow {
+      0% {
+          background-position: 0% 82%
+      }
+      50% {
+          background-position: 100% 19%
+      }
+      100% {
+          background-position: 0% 82%
+      }
+  }
+  
+  @keyframes rainbow {
+      0% {
+          background-position: 0% 82%
+      }
+      50% {
+          background-position: 100% 19%
+      }
+      100% {
+          background-position: 0% 82%
+      }
+  }
+  
+  .icon-bar {
+      position: fixed;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+      display: block;
+      text-align: center;
+      padding: 16px;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 20px;
+      border-radius: 2px;
+      margin-bottom: 7px;
+  }
+  
+  .twitter {
+      background: transparent;
+      color: white;
+      border-style: dotted;
+      border-width: 2px;
+  }
+  
+  .linkedin {
+      background: transparent;
+      color: white;
+      border-style: dotted;
+      border-width: 2px;
+  }
+  
+  .github {
+      background: transparent;
+      color: white !important;
+      border-style: dotted;
+      border-width: 2px;
+  }
+  
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background: transparent;
+      border-top-left-radius: 90%;
+      color: #fff;
+      text-align: center;
+      border-style: dotted;
+      border-width: 2px;
+      padding: 5px;
+  }
+  /* The sidebar menu */
+  
+  .sidenav {
+      height: 100%;
+      /* Full-height: remove this if you want "auto" height */
+      width: 160px;
+      /* Set the width of the sidebar */
+      position: fixed;
+      /* Fixed Sidebar (stay in place on scroll) */
+      z-index: 1;
+      /* Stay on top */
+      top: 0;
+      /* Stay at the top */
+      left: 0;
+      background-color: #111;
+      /* Black */
+      overflow-x: hidden;
+      /* Disable horizontal scroll */
+      padding-top: 20px;
+  }
+  
+  .btn-transparent {
+      background: transparent;
+      color: white !important;
+      border-style: dotted;
+      border-width: 2px;
+      display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      text-decoration: none
+  }
+  
+  .btn-transparent a {
+      text-decoration: none
+  }
+  
+  .name {
+      font-size: 35px;
+      font-family: 'Srisakdi', cursive;
+      font-weight: bolder;
+      text-align: center;
+  }
